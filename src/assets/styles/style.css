@@ -1,72 +1,4 @@
-/*------------- 
-[Table of contents]
 
-[ DEFULT INDEX NUMBER ]
-
-1.  GENERAL CSS
-2.  NAVBAR
-4.  HOME
-5.  SERVICE
-6.  ABOUT
-7.  TESTIMONIAL
-8.  FAQ
-9.  QUATE
-10. SUBSCRIBE
-11. PRICING
-12. BLOG
-13. FOOTER
-14. COPYRIGHT
-
-
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[ Color codes ]
-    
-    [ Text and Background Color ]
-        Main color 1:       #1c93e5     
-        Main color 2:       #009688      
-        Main color 3:       #9c27b0
-        Main color 4:       #ff4081      
-        Background 1:       #FFFFFF            
-        Background 2:       #F6F6F6           
-        Shadow color:       #000000;            
-
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[Typography]
-
-    [ There are using two different font typography ]
-        Typography 1: Roboto font;
-        Typography 2: Montserrat font;
-
-    [ Other Typography style are same ]
-    Body :
-        font-style:     normal;
-        font-size:      15px;
-
-    h2:
-        font-size: 48px;
-        line-height: 55px;
-
-    h3:
-        font-size: 30px;
-        line-height: 40px;
-
-    h4:
-        font-size: 20px;
-        font-weight: 600;
-
-    p:  
-        font-size: 18px;
-        line-height: 30px;
-
-
--------------------------------------------------------------------*/
-/*
-================
- VARIABLES
-================
-*/
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -80,11 +12,6 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-/**
- * -------------------
- *  Defult CSS 
- * -------------------
- */
 html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -161,11 +88,6 @@ a:focus {
   text-align: center;
 }
 
-/**
- * ---------------------
- *  Defult Halping Class
- * ---------------------
- */
 .overflow {
   overflow: hidden;
 }
@@ -191,11 +113,6 @@ a:focus {
   vertical-align: middle;
 }
 
-/**
- * --------------------------------------
- *  Video Section Background Defult Style
- * --------------------------------------
- */
 .section-video {
   position: fixed;
   top: 0;
@@ -236,11 +153,6 @@ a:focus {
   margin-bottom: 60px;
 }
 
-/**
- * ------------------------------------
- *  Every Section Headline Defult Class
- * ------------------------------------
- */
 .section-heading {
   display: block;
   margin: 0;
@@ -313,11 +225,6 @@ section {
   //padding-bottom: 30px;
 }
 
-/**
- * ---------------------
- *   Defult Button Style
- * ---------------------
- */
 .btn {
   -moz-transition: color 0.3s ease;
   -o-transition: color 0.3s ease;
@@ -436,11 +343,6 @@ section {
   margin-left: 10px;
 }
 
-/** 
- * -----------------
- * Social Icon Style
- * -----------------
- */
 .social-icon {
   display: inline-block;
 }
@@ -461,11 +363,6 @@ section {
   margin-right: 0px;
 }
 
-/**
- * -----------------------------------
- * Subscription and contact  "MESSAGE"
- * -----------------------------------
- */
 .subscription-success,
 .subscription-failed,
 .email-success,
@@ -511,11 +408,6 @@ section {
   top: 5px;
 }
 
-/**
- * ------------------
- * list
- * ------------------
- */
 ul {
   margin: 0;
   padding: 0;
@@ -524,11 +416,6 @@ ul li {
   list-style-type: none;
 }
 
-/**
- * =================
- * CONTAINER HALF CONTENT
- * =================
- */
 .content-half {
   position: relative;
 }
@@ -556,11 +443,6 @@ ul li {
   -webkit-flex-direction: row;
 }
 
-/**
- * ---------------------------------
- *  Section Background Size Property
- * ---------------------------------
- */
 .bg-cover {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -713,11 +595,7 @@ button:focus {
   border-color: transparent;
 }
 
-/** 
- * -----------------
- * General CSS
- * -----------------
- */
+
 .h1,
 .h2,
 .h3,
@@ -1141,7 +1019,7 @@ body {
     ==============
 */
 /*---------------------------------------------------------------------*/
-/* Loader 
+/* Loader
 /*---------------------------------------------------------------------*/
 .section-loader {
   position: fixed;
@@ -2306,7 +2184,7 @@ body {
 */
 .old {
   /*==============
-            Overlay            
+            Overlay
   ================== */
   /*  Navigation Menu */
 }
@@ -3514,4 +3392,14 @@ BLOG Pagination
   text-align: center;
   color: white;
   padding: 1em;
+}
+
+.other-page-content {
+  left: 0;
+  line-height: 200px;
+  margin-top: 230px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
 }

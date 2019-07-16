@@ -24,7 +24,12 @@ class About extends Component {
       data: { isError, userData, isFetching }
     } = this.props;
     if (isError) {
-      return <div><Navbar menu="aboutme" /><h3 className="error-message">Oops! {userData}</h3></div>;
+      return (
+        <div>
+          <Navbar menu="aboutme" />
+          <h3 className="error-message">Oops! {userData}</h3>
+        </div>
+      );
     }
     const items = [];
     if (Object.keys(userData).length > 0) {

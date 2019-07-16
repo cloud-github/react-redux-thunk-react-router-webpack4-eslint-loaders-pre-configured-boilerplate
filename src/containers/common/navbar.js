@@ -46,32 +46,52 @@ const Navbar = props => {
                     About Me
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li
+                  className={menu === "skills" ? "nav-item active" : "nav-item"}
+                >
                   <Link className="nav-link" to="/skills">
                     Skills
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li
+                  className={
+                    menu === "experiences" ? "nav-item active" : "nav-item"
+                  }
+                >
                   <Link className="nav-link" to="/experiences">
                     Experiences
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li
+                  className={
+                    menu === "portfolio" ? "nav-item active" : "nav-item"
+                  }
+                >
                   <Link className="nav-link" to="/portfolio">
                     Portfolio
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li
+                  className={
+                    menu === "services" ? "nav-item active" : "nav-item"
+                  }
+                >
                   <Link className="nav-link" to="/services">
                     Services
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li
+                  className={menu === "blog" ? "nav-item active" : "nav-item"}
+                >
                   <Link className="nav-link" to="/blog">
                     Blog
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li
+                  className={
+                    menu === "contacts" ? "nav-item active" : "nav-item"
+                  }
+                >
                   <Link className="nav-link" to="/contacts">
                     Contacts
                   </Link>

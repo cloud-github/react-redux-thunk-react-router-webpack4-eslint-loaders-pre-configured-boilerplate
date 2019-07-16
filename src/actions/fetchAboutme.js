@@ -26,7 +26,6 @@ export const getAboutMeData = () => {
     return fetch(`http://www.maheshjoshi.me/madmin/wp-json/wp/v2/aboutme/`)
       .then(data => data.json())
       .then(data => {
-        console.log("ACTION DATA ABOUT ME: ", data);
         if (data.data && data.data.status >= 404) {
           dispatch(receive_aboutme_post_error(data.message));
         } else {
