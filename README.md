@@ -14,12 +14,20 @@ A simple portfolio website build with react, redux, redux-thunk, webpack4 with p
 
 ## Tech stacks behind
 
-* [webpack](https://webpack.js.org/) - Static module bundler
-* [React](https://babeljs.io/) - JavaScript library for building user interfaces
-* [Babel](https://babeljs.io/) - EcmaScript Transpiler
-* [Yarn](https://yarnpkg.com) - Dependency Management
-* [Jest](https://jestjs.io/) - JavaScript Testing
-* [Enzyme](https://airbnb.io/enzyme/docs/api/) - Component tests for React
+* [webpack4](https://webpack.js.org/) - Bundle your scripts.
+* [React](https://babeljs.io/) - React is a JavaScript library for building user interfaces.
+* [Redux](https://redux.js.org/) - Redux is an open-source JavaScript library for managing application state globally.
+* [Redux Thunk](https://github.com/reduxjs/redux-thunk/) - Redux thunk is a middleware that helps you to write an async logic like AJAX requests.
+* [React Router](https://github.com/ReactTraining/react-router) - Declarative routing for React.
+* [Connected React Router](https://github.com/supasate/connected-react-router) - A Redux binding for React Router v4 and v5.
+* [Prop Types](https://www.npmjs.com/package/prop-types) - Type checking for React props and similar objects.
+* [React Froala wysiwyg](https://www.froala.com/wysiwyg-editor/docs/framework-plugins/react) - The Next Generation WYSIWYG HTML Editor.
+* [Eslint](https://eslint.org/) - Linting utility for JavaScript and JSX.
+* [Prettier](https://prettier.io/) - Code formatter.
+* [Babel](https://babeljs.io/) - Babel is javascript compiler which transpiles es6 into browser-compatible JavaScript code.
+* [Yarn](https://yarnpkg.com) - Dependency Management.
+* [Jest](https://jestjs.io/) - JavaScript Testing web frameworks.
+* [Enzyme](https://airbnb.io/enzyme/docs/api/) - Enzyme is a JavaScript Testing utility for React.
 
 ## Snapshots
 
