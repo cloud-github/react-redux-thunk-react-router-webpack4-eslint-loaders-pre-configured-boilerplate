@@ -5,7 +5,7 @@ A simple portfolio website build with react, redux, redux-thunk, webpack4 with p
 * SASS, CSS and Image loader all configured
 * Redux-thunk configured with react-router 
 * Prop-types enabled
-* Froala wysiwyg editor used
+* Froala wysiwyg editor integrated
 * Webpack4 and babel configured
 * Hot reloading configured
 * Eslint and prettier pre configured
