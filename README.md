@@ -1,23 +1,25 @@
-# webpack 4 React boilerplate [![GitHub license](https://img.shields.io/badge/license-MIT-lime.svg)](https://github.com/FerJSsilva/webpack-4-react-boilerplate/blob/master/LICENSE)
+# webpack 4 React boilerplate [![GitHub license](https://img.shields.io/badge/license-MIT-lime.svg)](https://github.com/cloud-github/react-redux-thunk-react-router-webpack4-eslint-css-loaders-image-loaders-all-configured-boilerplate/blob/master/LICENSE)
 
 A simple and complete Webpack 4 React Boilerplate.
 
-* Ready to start React App :zap:
-* Image loader configured :camera:
-* SASS and CSS loaders configured :art:
-* Hot reload configured :sunny:
-* Unit test tools configured :microscope:
-* Production build optimized :chart_with_upwards_trend:
+* Ready to start React Redux App
+* SASS, CSS and Image loader all configured
+* Redux-thunk configured with react-router 
+* Prop-types enabled
+* Froala wysiwyg editor used
+* Webpack4 and babel configured
+* Hot reloading configured
+* Eslint and prettier pre configured
+* Enzyme test tools configured
+* Production build optimized
 
-## Motivation
+## Snapshots
 
-The purpose of this boilerplate is help to create new apps and projects. It's _easy to customize_ and if you need help to understand you can check the commits for a _step-by-step_ guide.
-
-It´s a solid base which will help to understand webpack [core concepts](https://webpack.js.org/concepts/).
+![alt text](https://raw.githubusercontent.com/cloud-github/react-redux-thunk-react-router-webpack4-eslint-css-loaders-image-loaders-all-configured-boilerplate/master/public/images/home_page.png)
 
 ## Getting Started
 
-To start you can simply [download](https://github.com/FerJSsilva/webpack-4-react-boilerplate/archive/master.zip) the boilerplate and unzip it into your working directory. You can also clone if you want to contribute.
+To start you can simply [download](https://github.com/cloud-github/react-redux-thunk-react-router-webpack4-eslint-css-loaders-image-loaders-all-configured-boilerplate) the boilerplate and unzip it into your working directory. You can also clone if you want to contribute.
 
 ### Prerequisites
 
@@ -97,8 +99,4 @@ For major changes, please open an issue first to discuss what you would like to 
 * v1.0 - A complete webpack 4 configuration
 * v1.1 - Production build optimization
 
-Click [here](https://github.com/FerJSsilva/webpack-4-react-boilerplate/tags) to see or download the project in a specific tag.
-
-## License
-
-This project is licensed under the MIT Licensed - see the [LICENSE](LICENSE) file for details
+Click [here](https://github.com/cloud-github/react-redux-thunk-react-router-webpack4-eslint-css-loaders-image-loaders-all-configured-boilerplate) to see or download the project in a specific tag.
