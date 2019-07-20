@@ -6,6 +6,15 @@
   "repository": "https://github.com/cloud-github",
   "author": "Mahesh Joshi <mahesh.connectnepal@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "react portfolio github",
+    "front end react portfolio github",
+    "react js portfolio github",
+    "react portfolio template free",
+    "react projects for portfolio",
+    "personal portfolio github",
+    "react redux thunk react-router webpack4 eslint loaders pre configured boilerplate"
+  ],
   "scripts": {
     "start": "webpack-dev-server --config=config/webpack.dev.js --hot",
     "start:reload": "webpack-dev-server --config=config/webpack.dev.js",
